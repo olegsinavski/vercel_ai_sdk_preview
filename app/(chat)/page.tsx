@@ -1,5 +1,5 @@
-import { Chat } from "@/components/chat";
+import { SimpleGreeting } from "@/components/simple-greeting";
 
 export default function Page() {
-  return <Chat />;
+  return <SimpleGreeting />;
 }

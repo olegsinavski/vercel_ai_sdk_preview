@@ -47,13 +47,13 @@ async def handle_chat_data(request: Request, protocol: str = Query('data')):
     return response
 
 
-@app.get("/")
+@app.get("/api/")
 async def root():
     """Return a simple Hello World message"""
     return {"message": "Hello, World!"}
 
 
-@app.get("/greetings")
+@app.get("/api/greetings")
 async def get_greetings():
     """Return all available greetings"""
     return {"greetings": greetings}

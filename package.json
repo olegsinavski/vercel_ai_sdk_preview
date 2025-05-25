@@ -8,7 +8,9 @@
     "dev": "concurrently \"npm run next-dev\" \"npm run fastapi-dev\"",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:backend": "pytest tests/",
+    "test": "npm run lint && npm run test:backend"
   },
   "dependencies": {
     "@ai-sdk/ui-utils": "^0.0.20",

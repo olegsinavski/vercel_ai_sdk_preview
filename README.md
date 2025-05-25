@@ -30,7 +30,7 @@ To run the example locally you need to:
 4. `pnpm install` to install the required Node dependencies.
 5. `uv venv` to create a virtual environment.
 6. `source .venv/bin/activate` to activate the virtual environment.
-7. `uv pip install -r requirements.txt` to install the required Python dependencies.
+7. `uv pip install -r requirements.txt` to install the required Python dependencies (or use `uv pip install -r requirements.lock` for reproducible builds).
 8. `pnpm dev` to launch the development server.
 
 ## Learn More

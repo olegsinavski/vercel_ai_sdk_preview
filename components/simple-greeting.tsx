@@ -25,6 +25,9 @@ export function SimpleGreeting() {
 
         // Function to read the stream
         function readStream() {
+          // Ensure reader is defined
+          if (!reader) return;
+          
           reader.read().then(({ done, value }) => {
             if (done) {
               return;

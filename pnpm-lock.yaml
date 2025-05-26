@@ -117,6 +117,9 @@ importers:
       '@testing-library/user-event':
         specifier: ^14.6.1
         version: 14.6.1(@testing-library/dom@10.4.0)
+      babel-jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@babel/core@7.27.1)
       identity-obj-proxy:
         specifier: ^3.0.0
         version: 3.0.0
@@ -6055,7 +6058,7 @@ snapshots:
       eslint: 8.41.0
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.31.0(eslint@8.41.0))(eslint@8.41.0)
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.41.0)(typescript@5.0.4))(eslint-import-resolver-typescript@3.10.1)(eslint@8.41.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.41.0)(typescript@5.0.4))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.31.0(eslint@8.41.0))(eslint@8.41.0))(eslint@8.41.0)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@8.41.0)
       eslint-plugin-react: 7.37.5(eslint@8.41.0)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.41.0)
@@ -6085,7 +6088,7 @@ snapshots:
       tinyglobby: 0.2.14
       unrs-resolver: 1.7.2
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.41.0)(typescript@5.0.4))(eslint-import-resolver-typescript@3.10.1)(eslint@8.41.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.41.0)(typescript@5.0.4))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.31.0(eslint@8.41.0))(eslint@8.41.0))(eslint@8.41.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -6100,7 +6103,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.41.0)(typescript@5.0.4))(eslint-import-resolver-typescript@3.10.1)(eslint@8.41.0):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.41.0)(typescript@5.0.4))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.31.0(eslint@8.41.0))(eslint@8.41.0))(eslint@8.41.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8

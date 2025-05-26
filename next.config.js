@@ -25,6 +25,15 @@ const nextConfig = {
       },
     ];
   },
+  webpack: (config) => {
+    // Polyfill for 'crypto' and other Node.js built-in modules
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      crypto: false,
+    };
+    
+    return config;
+  },
 };
 
 module.exports = nextConfig;
